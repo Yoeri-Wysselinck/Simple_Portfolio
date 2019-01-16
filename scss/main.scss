@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -30,7 +31,7 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: lighten($color: $primary-color, $amount: 2);
+    background: lighten($color: $primary-color, $amount: 0.5);
   }
 }
 a {
